@@ -433,7 +433,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
-<<<<<<< HEAD:sdm710.mk
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
@@ -441,9 +440,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-=======
+    
 # RealmeParts
 PRODUCT_PACKAGES += \
     RealmeParts
 
->>>>>>> 45a7a6d (RMX1921: RealmeParts: Update RealmeParts Vector Icon):device.mk
